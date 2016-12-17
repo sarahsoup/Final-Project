@@ -1,0 +1,69 @@
+/*.axis .tick line{
+    stroke:white;
+}*/
+
+.axis .domain{
+    display:none;
+}
+
+body{
+	background:rgb(50,50,50);
+	color:#fff;
+	font-family:"Roboto", sans-serif;
+}
+
+h1, h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 16px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.container .country-content{
+  position: absolute;
+  top: 200px;
+  left: 450px;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.block {
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  width: 50px;
+  right: 20px;
+  top: 100px;
+  vertical-align: middle;
+}
+
+.block a.btn-default{
+  position: relative;
+  width: 40px;
+  height: 20px;
+  margin-left: 0px;
+  font-size: 10px;
+  padding: 4px 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.block div.btn-default{
+  background:rgb(50,50,50);
+}
+
+.axis text{
+  fill: #fff;
+}
+
+.title, .value {
+  margin-bottom: 2px;
+}
